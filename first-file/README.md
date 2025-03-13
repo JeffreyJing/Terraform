@@ -17,4 +17,4 @@ I created an instance state object to be able to start and stop the ec2 instance
 
 Run terraform apply -var="ssh_ip=<YOUR_IP>" to be able to ssh from your IP. 
 
-curl ifconfig.me to get YOUR_IP.
+**curl ifconfig.me** to get YOUR_IP.
