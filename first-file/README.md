@@ -15,6 +15,6 @@ Both the ssh key and the security group are needed in order to successfully ssh 
 
 I created an instance state object to be able to start and stop the ec2 instances.
 
-Run terraform apply -var="ssh_ip=<YOUR_IP>" to be able to ssh from your IP. 
+Run **terraform apply -var="ssh_ip=<YOUR_IP>"** to enable to ssh from your IP. 
 
 **curl ifconfig.me** to get YOUR_IP.
