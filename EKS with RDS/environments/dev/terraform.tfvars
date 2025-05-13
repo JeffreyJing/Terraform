@@ -14,8 +14,8 @@ private_subnets         = ["10.0.3.0/24", "10.0.4.0/24"]
 
 cluster_name            = "dev-eks"
 cluster_version         = "1.32"
-vpc_id                  = "vpc-007fb033b3dc7d285" 
-subnets                 = ["subnet-0bef5825725d3af04", "subnet-0b4457edc957c468a"]
+vpc_id                  = "vpc-007fb033b3dc7d285" # Change this field to your own VPC ID that is outputted
+subnets                 = ["subnet-0bef5825725d3af04", "subnet-0b4457edc957c468a"] # Change this field to your own subnets that is outputted
 
 node_group_name         = "dev-node-group"
 desired_capacity        = 3
