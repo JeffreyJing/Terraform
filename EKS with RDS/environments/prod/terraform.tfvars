@@ -21,5 +21,5 @@ db_engine_version       = "15.7"
 db_instance_class       = "db.t3.medium"
 db_storage              = 50
 db_name                 = "prod_app_db"
-db_username             = "dbadmin"
-db_password             = "supersecureprodpass"
+db_username             = var.db_username
+db_password             = var.db_password
