@@ -27,5 +27,5 @@ db_engine_version       = "15.7"
 db_instance_class       = "db.t3.micro"
 db_storage              = 20
 db_name                 = "app_db"
-db_username             = "dbadmin"
-db_password             = "password123"
+db_username             = var.db_username
+db_password             = var.db_password
